@@ -9,3 +9,7 @@
 .background{
   background-color: rgb(254, 226, 133);
 }
+
+.cardfont{
+  font-family: 'Roboto', sans-serif;
+}

@@ -4,9 +4,9 @@ import { Pop } from "../Utils/Pop.js"
 import { setHTML } from "../Utils/Writer.js"
 
 function _drawQuestions(){
-  let template = ''
-  appState.questions.forEach(c=>template+=c.QuestionCard)
-  setHTML('questions',template)
+  // let template = ''
+  // appState.questions.forEach(c=>template+=c.QuestionCard)
+  setHTML('questions',appState.questions[0].QuestionCard)
 }
 
 export class QuestionsController{
